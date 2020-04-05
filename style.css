@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  text-align: -webkit-center;
+  color: #fff;
+  background: linear-gradient(
+    to right,
+    rgb(38, 87, 223),
+    rgb(16, 67, 207),
+    rgb(0, 28, 165)
+  );
+}
+
+header {
+  text-align: center;
+}
+
+#title {
+  margin: 2rem auto;
+}
+
+#description {
+  margin: 3rem auto;
+}
+
+input,
+label,
+textarea,
+select,
+option,
+fieldset,
+#submit,
+#survey-form {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  text-align: left;
+  background: #056305;
+}
+
+.fieldgroup {
+  padding: 0.5rem;
+}
+
+.form-input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(16, 67, 207);
+  outline: 0.2rem solid rgb(16, 67, 207);
+}
+
+#submit {
+  background: rgb(44, 48, 58);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 4rem 0;
+  border: none;
+  outline: none;
+}
+
+#submit:focus {
+  box-shadow: 0 0 0 0.25rem rgb(16, 67, 207);
+  outline: 0.2rem solid rgb(16, 67, 207);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}
